@@ -11,7 +11,16 @@ class Fraction:
      def __init__(self,top,bottom):
          self.num = top
          self.den = bottom
-         
+"""
+Exercises 1.17 Number 1
+"""
+###
+    def getNum(self):
+        return self.numerator
+    
+    def getDen(self):
+        return self.demoninator
+###          
      def __str__(self):
          return str(self.num)+"/"+str(self.den)
 
